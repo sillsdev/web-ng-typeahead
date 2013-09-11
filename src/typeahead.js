@@ -6,7 +6,7 @@ angular.module('palaso.ui.typeahead', [])
 			restrict : 'E',
 			transclude : true,
 			replace : true,
-			template : '<div><input ng-model="term" ng-change="query()" type="text" autocomplete="off" /><div ng-transclude></div></div>',
+			template : '<div><input class="typeahead" ng-model="term" ng-change="query()" type="text" autocomplete="off" /><div ng-transclude></div></div>',
 			scope : {
 				search : "=",
 				select : "=",

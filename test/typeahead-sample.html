@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" ng-app="palaso.sample.typeahead" >
+<head>
+	<meta charset="utf-8">
+	<title>Typeahead Sample</title>
+	<link rel="stylesheet" href="../src/css/bootstrap.css" />
+	<link rel="stylesheet" href="../src/css/typeahead.css" />
+</head>
+<body>
+<h3>Typeahead Sample</h3>
+<div ng-controller="TypeaheadSampleCtrl">
+<form class="well">
+<typeahead class="typeahead" items="users" term="typeahead.userName" search="queryUser" select="selectUser">
+	<ul>
+		<li typeahead-item="user" ng-repeat="user in users" class="typeahead-item">
+			<img width="32px" ng-src="{{imageSource(user.avatarRef)}}" class="left">
+			<p class="name">{{user.name}}</p>
+			<p class="email">{{user.email}}</p>
+		</li>
+	</ul>
+</typeahead>
+<button class="btn">Some Button</button>
+</form>
+</div>
+
+<script src="../src/lib/js/angular.min.js"></script>
+<script src="../src/typeahead.js"></script>
+<script src="typeahead-sample.js"></script>
+
+</body>
+</html>

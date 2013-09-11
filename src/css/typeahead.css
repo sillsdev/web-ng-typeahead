@@ -22,6 +22,10 @@ div.typeahead ul {
 	margin: 0 2px 2px 2px;
 }
 
+input.typeahead {
+	margin-bottom: 0px;
+}
+
 li.typeahead-item {
 	display: block;
 	padding: 5px;
@@ -52,46 +56,4 @@ li.typeahead-item p.name {
 li.typeahead-item p.email {
 	font-size: 0.8em;
 	color: #666666;
-}
-
-/* listview */
-div.listview {
-	margin-top: 8px;
-}
-
-div.listview div.paginationblock div {
-	display: inline-block;
-}
-
-div.listview .active {
-	background-color: #ffc;
-}
-
-div.listview div.pagination select {
-	width: 70px;
-}
-
-/* Listview for projects, questions, answers views */
-div.listview div.attention-block {
-	text-align: center;
-	background-color: #d3d3d3; /* lightgray */
-	color: #dc143c; /* crimson */
-	padding: 10px;
-}
-
-div.listview div.attention-block .count {
-	font-size: 1.8em;
-}
-
-div.listview div.attention-block .subtitle {
-	font-size: 1.0em;
-}
-
-span.larger-text {
-	font-size: 1.2em;
-}
-
-/* Control bar for use at top of listview */
-form.control-bar {
-	margin-bottom: 0px;
 }
