@@ -10,6 +10,7 @@
 <h3>Typeahead Sample</h3>
 <div ng-controller="TypeaheadSampleCtrl">
 <form class="well">
+<label>Can we find him?</label>
 <typeahead class="typeahead" items="users" term="typeahead.userName" search="queryUser" select="selectUser">
 	<ul>
 		<li typeahead-item="user" ng-repeat="user in users" class="typeahead-item">

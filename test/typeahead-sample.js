@@ -14,7 +14,7 @@ angular.module('palaso.sample.typeahead', ['palaso.ui.typeahead'])
              { name: 'Dizzy',   email: 'dizzy@example.com',   image: 'c1.jpg' },
              { name: 'Roley',   email: 'roley@example.com',   image: 'c1.jpg' },
              { name: 'Lofty',   email: 'lofty@example.com',   image: 'c1.jpg' },
-             { name: 'Travis',  email: 'travis@example.com',  image: 'c1.jpg' },
+             { name: 'Travis',  email: 'travis@example.com',  image: 'travis.png' },
         ];
 		
 		$scope.typeahead = {};
