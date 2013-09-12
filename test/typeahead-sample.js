@@ -1,7 +1,7 @@
 // Declare app level module which depends on filters, and services
 angular.module('palaso.sample.typeahead', ['palaso.ui.typeahead'])
 	.controller('TypeaheadSampleCtrl', ['$scope', function($scope) {
-		var things = [
+		$scope.things = [
              { name: 'Bob',     email: 'bob@example.com' },
              { name: 'Bobby',   email: 'bobby@example.com'  },
              { name: 'Robert',  email: 'robert@example.com'  },
@@ -17,12 +17,14 @@ angular.module('palaso.sample.typeahead', ['palaso.ui.typeahead'])
              { name: 'Travis',  email: 'travis@example.com'  },
         ];
 		
+		$scope.typeahead = {};
+		$scope.typeahead.userName = '';
 		$scope.users = [];
 		$scope.queryUser = function(searchTerm) {
 			console.log('queryUser: ', searchTerm);
 			var users = [];
-			for (var index in things) {
-				var thing = things[index];
+			for (var index in $scope.things) {
+				var thing = $scope.things[index];
 				var pos = thing.name.indexOf(searchTerm);
 				if (pos != -1) {
 					users.push(thing);
@@ -33,6 +35,7 @@ angular.module('palaso.sample.typeahead', ['palaso.ui.typeahead'])
 		
 		$scope.selectUser = function(user) {
 			console.log('selectUser: ', user);
+			$scope.typeahead.userName = user.name;
 		};
 		
 	}])

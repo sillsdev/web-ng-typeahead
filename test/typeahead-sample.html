@@ -21,8 +21,15 @@
 </typeahead>
 <button class="btn">Some Button</button>
 </form>
+<h4>Sample Data</h4>
+The sample data is a javascript array of objects containing the following names:
+<ul>
+<li ng-repeat="thing in things">{{thing.name}}</li>
+</ul>
+Typing something like 'ob' for will show you multiple options in the typeahead.
 </div>
 
+<script src="../src/lib/js/jquery-1.8.0.min.js"></script>
 <script src="../src/lib/js/angular.min.js"></script>
 <script src="../src/typeahead.js"></script>
 <script src="typeahead-sample.js"></script>
