@@ -13,7 +13,7 @@
     "vendor_bower"
   ],
   "dependencies": {
-    "angular": "~1.0.x"
+    "angular": "~1.2.x"
   },
   "devDependencies": {
     "bootstrap-css": "~2.x"
