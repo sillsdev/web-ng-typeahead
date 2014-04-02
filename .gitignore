@@ -1,3 +1,5 @@
 *~
 .settings/
 output/
+
+node_modules/
