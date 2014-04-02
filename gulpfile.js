@@ -42,7 +42,7 @@ gulp.task('watch', function() {
 });
 
 gulp.task('dist', function() {
-	gulp.src('src/**/*')
+	gulp.src(['src/*.js', 'src/**/*.css'])
 		.pipe(gulp.dest('bower'));
 });
 
