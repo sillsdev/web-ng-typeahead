@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-css",
-  "version": "3.1.1",
+  "version": "2.3.2",
   "keywords": [
         "twitter",
         "bootstrap",
@@ -9,10 +9,10 @@
         "bootstrap.js"
     ],
     "main": [
-      "css/bootstrap.min.css",
-      "js/bootstrap.min.js"
+      "css/bootstrap.css",
+      "js/bootstrap.js"
     ],
-    "homepage": "http://getbootstrap.com/",
+    "homepage": "http://twitter.github.com/bootstrap/",
     "author": {
         "name": "Twitter Inc."
     },
@@ -26,6 +26,6 @@
             "url": "http://www.apache.org/licenses/LICENSE-2.0"
         }
     ],
-    "readme": "Bootstrap 3 CSS Library",
-    "_id": "bootstrap-css@3.1.1"
+    "readme": "Twitter Bootstrap",
+    "_id": "bootstrap@2.3.2"
 }

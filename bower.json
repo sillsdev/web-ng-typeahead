@@ -16,6 +16,6 @@
     "angular": "~1.0.x"
   },
   "devDependencies": {
-    "bootstrap-css": "~3.x"
+    "bootstrap-css": "~2.x"
   }
 }

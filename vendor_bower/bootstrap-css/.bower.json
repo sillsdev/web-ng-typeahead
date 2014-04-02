@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-css",
-  "version": "3.1.1",
+  "version": "2.3.2",
   "keywords": [
     "twitter",
     "bootstrap",
@@ -9,10 +9,10 @@
     "bootstrap.js"
   ],
   "main": [
-    "css/bootstrap.min.css",
-    "js/bootstrap.min.js"
+    "css/bootstrap.css",
+    "js/bootstrap.js"
   ],
-  "homepage": "http://getbootstrap.com/",
+  "homepage": "http://twitter.github.com/bootstrap/",
   "author": {
     "name": "Twitter Inc."
   },
@@ -26,15 +26,15 @@
       "url": "http://www.apache.org/licenses/LICENSE-2.0"
     }
   ],
-  "readme": "Bootstrap 3 CSS Library",
-  "_id": "bootstrap-css@3.1.1",
-  "_release": "3.1.1",
+  "readme": "Twitter Bootstrap",
+  "_id": "bootstrap@2.3.2",
+  "_release": "2.3.2",
   "_resolution": {
     "type": "version",
-    "tag": "3.1.1",
-    "commit": "fcc50745f325ee6f08b11fef85ebe34d852b50ac"
+    "tag": "2.3.2",
+    "commit": "99dba87c85c15b95e2be29fca1108119f68ffca7"
   },
   "_source": "git://github.com/jozefizso/bower-bootstrap-css.git",
-  "_target": "~3.x",
+  "_target": "~2.x",
   "_originalSource": "bootstrap-css"
 }
